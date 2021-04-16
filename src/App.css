@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 10vh;
+  background: rgb(41, 37, 37);
+  color: white;
+}
+.nav-links {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-links li:hover {
+  color: rgb(162, 162, 179);
+}
+Link {
+  color: white;
+}
+.item-image {
+  height: 300px;
+  width: 400px;
+}
